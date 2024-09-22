@@ -1,14 +1,3 @@
-;========================
-; Fonction RFID_Write_Info()
-
-; Input:
-;    - Aucun, cette fonction interagit directement avec un module RFID
-; Output:
-;    - code de statut de l'exécution de la fonction, renvoyé dans la console série.
-; Objectif:
-;    - Cette fonction permet d'authentifier des blocs spécifiques sur une carte RFID,
-;      puis d'écrire des informations (nom, prénom, secteur) dans les blocs désignés.
-
 #include <SPI.h>
 #include <MFRC522.h>
 
